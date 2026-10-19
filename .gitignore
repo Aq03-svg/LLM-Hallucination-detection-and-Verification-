@@ -1,0 +1,140 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore — LLM Hallucination Detection & Verification Project
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.toml
+config.local.toml
+
+# ── API Keys (never commit these!) ────────────────────────────────────────────
+api_keys.txt
+credentials.json
+token.json
+*.key
+*.pem
+*.p12
+
+# ── HuggingFace cache ─────────────────────────────────────────────────────────
+~/.cache/huggingface/
+.cache/
+huggingface_cache/
+
+# ── Model weights & large binary files ───────────────────────────────────────
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+*.pt
+*.pth
+*.onnx
+models/
+weights/
+checkpoints/
+
+# ── FAISS index files ─────────────────────────────────────────────────────────
+*.faiss
+*.index
+faiss_store/
+vector_db/
+
+# ── Data & datasets ───────────────────────────────────────────────────────────
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+# (keep sample_docs/ — it's intentionally small and tracked)
+
+# ── Logs & temp files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+logs/
+output/
+results/
+reports/
+
+# ── OS generated ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDEs & Editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.cursor/
+*.code-workspace
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+nosetests.xml
+test-results/
+
+# ── Mypy / type checking ──────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# ── Ruff / linting cache ──────────────────────────────────────────────────────
+.ruff_cache/
+
+# ── Documentation builds ──────────────────────────────────────────────────────
+docs/_build/
+site/

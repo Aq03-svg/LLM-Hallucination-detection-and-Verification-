@@ -1,0 +1,23 @@
+Artificial Intelligence and Machine Learning - Key Facts
+
+Large Language Models (LLMs) are a type of artificial intelligence (AI) model trained on vast amounts of text data. They use transformer architecture, first introduced by Vaswani et al. in the 2017 paper "Attention Is All You Need." 
+
+GPT (Generative Pre-trained Transformer) models were developed by OpenAI. GPT-1 was released in 2018, GPT-2 in 2019, GPT-3 in 2020, and GPT-4 in March 2023. ChatGPT was launched on November 30, 2022.
+
+Google developed PaLM (Pathways Language Model) in 2022, and later released Gemini in December 2023. Meta released the LLaMA (Large Language Model Meta AI) family of models, with LLaMA 1 in February 2023, LLaMA 2 in July 2023, and LLaMA 3 in April 2024.
+
+BERT (Bidirectional Encoder Representations from Transformers) was introduced by Google in 2018. Unlike GPT, BERT is trained to understand context in both directions (bidirectional).
+
+The term "hallucination" in AI refers to when a language model generates text that is factually incorrect, nonsensical, or not grounded in real-world facts, even when it sounds plausible and confident. This is a well-known limitation of LLMs.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines retrieval of relevant documents from a knowledge base with generation from an LLM, reducing hallucinations by grounding responses in factual sources.
+
+Self-consistency is a decoding strategy where the model samples multiple reasoning paths and aggregates them to get the most consistent answer, reducing factual errors.
+
+The Turing Test, proposed by Alan Turing in 1950, evaluates a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.
+
+Deep learning is a subset of machine learning that uses multi-layered neural networks (called deep neural networks) to learn representations of data.
+
+The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) was won in 2012 by AlexNet, a convolutional neural network developed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, marking a major turning point in deep learning adoption.
+
+Reinforcement Learning from Human Feedback (RLHF) is a training technique used to align LLMs with human preferences. It involves training a reward model based on human ratings and then fine-tuning the LLM using reinforcement learning.
